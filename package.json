@@ -1,6 +1,6 @@
 {
   "name": "gen-doc-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate documentation from tag based comments",
   "license": "MIT",
   "author": {
