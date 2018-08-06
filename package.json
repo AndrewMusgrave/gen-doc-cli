@@ -1,5 +1,5 @@
 {
-  "name": "gen-doc",
+  "name": "gen-doc-cli",
   "version": "0.1.0",
   "description": "Generate documentation from tag based comments",
   "license": "MIT",
@@ -8,7 +8,7 @@
     "email": "andrewdmusgrave@gmail.com",
     "url": "https://github.com/AndrewMusgrave"
   },
-  "repository": "AndrewMusgrave/gen-doc",
+  "repository": "AndrewMusgrave/gen-doc-cli",
   "scripts": {
     "format": "prettier --trailing-comma es5 --single-quote --write \"utils/**/*.js\"  cli.js docParse.js",
     "test": "jest"
@@ -20,7 +20,8 @@
     "node": ">=6"
   },
   "files": [
-    "cli.js"
+    "cli.js",
+    "utils"
   ],
   "jest": {
     "verbose": true,

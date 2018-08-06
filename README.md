@@ -1,11 +1,11 @@
-# gen-doc
+# gen-doc-cli
 
 Generate documentation from tag based comments. Gendoc will start at the entry point and recursively crawl through all files and directories. The output will be an array of generate docs in `json` format.
 
 ## Install
 
 ```bash
-npm install gen-doc
+npm install gen-doc-cli
 ```
 
 ## Usage
