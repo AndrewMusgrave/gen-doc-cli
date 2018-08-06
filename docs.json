@@ -1,0 +1,20 @@
+[
+  {
+    "name": "isFunction",
+    "param": "{function} fn The function to check",
+    "returns": "{boolean} Returns a true if fn is a function otherwise false",
+    "example": "\n isFunction(null)\n // => false\n\n isFunction(() => {})\n // => true"
+  },
+  {
+    "example": "\n isObject(null)\n // => false\n\n isObject({})\n // => true",
+    "name": "isObject",
+    "param": "{object} obj The object to check",
+    "returns": "{boolean} Returns a true if obj is a object otherwise false"
+  },
+  {
+    "example": "\n last([])\n // => undefined\n\n last([1,2])\n // => 2",
+    "name": "last",
+    "param": "{array} arr The array to check",
+    "returns": "{array} Returns the last element of `arr`"
+  }
+]
