@@ -84,7 +84,11 @@ const last = arr => {
 * Support multiple entry points from cmd line
 * Add the ability to ignore files or directories
 * Add file types
+* Support multiple params
+* Convert a few options to objects, for example params.
+  * e.g. {param, type, text}
 
 ### Issues
 * Files without a name may not be accessable e.g. `.example`
 * git should be ignored
+* extra new line carriage somewhere
