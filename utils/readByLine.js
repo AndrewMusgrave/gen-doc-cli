@@ -1,6 +1,5 @@
 const fs = require('fs');
 const readline = require('readline');
-const stream = require('stream');
 
 const readByLine = (path, onLine, onClose) =>
   new Promise((resolve, reject) => {
